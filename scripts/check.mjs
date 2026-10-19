@@ -175,7 +175,7 @@ async function speed(page, name) {
   const s = await state(page);
   const load = s.loadMs;
   (load < TARGET.loadMs ? summaries : failures).push(`[${name}] load ${load} ms (target under ${TARGET.loadMs})`);
-  for (const [tab, size] of [['A', 'card'], ['A', 'showcase'], ['C', 'card'], ['C', 'showcase'], ['D', 'card'], ['D', 'showcase'], ['M', 'card'], ['M', 'showcase']]) {
+  for (const [tab, size] of [['A', 'card'], ['A', 'showcase'], ['C', 'card'], ['C', 'showcase'], ['B', 'card'], ['B', 'showcase'], ['D', 'card'], ['D', 'showcase'], ['M', 'card'], ['M', 'showcase']]) {
     await page.evaluate((c) => window.__game.show(c), { tab, size });
     await settle(page);
     const f = await page.evaluate(() => window.__game.measureFps(3000));
@@ -186,6 +186,19 @@ async function speed(page, name) {
     else if (f.fps >= TARGET.stallFps) notes.push(`${line}: software GPU in the cloud, confirm on the phone with ?debug`);
     else failures.push(`${line}: stalled`);
   }
+}
+
+// B: eyes shut and mouth open on demand, for a close-up screenshot of the blink and mouth shapes.
+async function puppetFace(page, name) {
+  await settle(page);
+  for (const [label, p] of [['open', {}], ['blink', { blink: 1 }], ['mouth', { mouth: 1 }]]) {
+    await page.evaluate((x) => window.__game.pose(x), p);
+    await advance(page, 100);
+    const s = await state(page);
+    if (label === 'blink' && s.view.blink !== 1) failures.push(`[${name}] blink did not close the eyes (${s.view.blink})`);
+    await page.screenshot({ path: join(OUT, `${name}-${label}.png`), clip: { x: 520, y: 40, width: 240, height: 200 } });
+  }
+  summaries.push(`[${name}] blink and mouth close-ups saved`);
 }
 
 // ?take=N shows another Kling attempt.
@@ -212,6 +225,7 @@ for (const [name, [opts, input, touch]] of Object.entries(DEVICES)) {
   await run(`${name}-controls`, opts, (page) => controls(page, `${name}-controls`, input(page), touch));
 }
 await run('phone-speed', DEVICES.phone[0], (page) => speed(page, 'phone-speed'), '');
+await run('laptop-puppet-face', { viewport: { width: 1280, height: 720 }, deviceScaleFactor: 2 }, (page) => puppetFace(page, 'laptop-puppet-face'), '?test&tab=B&size=showcase');
 await run('laptop-take', DEVICES.laptop[0], (page) => otherTake(page, 'laptop-take'), '?test&tab=C&take=4');
 await run('laptop-debug', DEVICES.laptop[0], (page) => debugOverlay(page, 'laptop-debug'), '?test&debug');
 

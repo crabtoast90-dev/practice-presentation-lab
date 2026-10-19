@@ -13,6 +13,7 @@ date | service | what | cost | running total
 2026-10-19 | fal | Kling 3.0 Pro, knight attempt 3 (5 s), kept | $0.56 | $2.25
 2026-10-19 | fal | Kling 3.0 Pro, sorceress attempt 4 (5 s) | $0.56 | $2.81
 2026-10-19 | fal | Kling 3.0 Pro, knight attempt 4 (5 s) | $0.56 | $3.37
+2026-10-19 | RunPod | See-through layer split of the sorceress: one A40 pod, ~6 min ($0.59/h), terminated and confirmed gone (balance $10.00 → $9.95) | $0.05 | $3.42
 
 Meshy (Brian's monthly credits, outside the $20 fal/RunPod budget; ~$0.02 a credit on Meshy's plans, an estimate):
 
@@ -22,4 +23,5 @@ date | service | what | credits | running credits
 2026-10-19 | Meshy | auto-rig | 5 | 35
 2026-10-19 | Meshy | 3 idle clips (Idle, Long Breathe and Look Around, Happy Sway Standing) | 9 | 44 (about $0.88; 405 left this month)
 
-**Totals:** fal $3.37 of $10 · RunPod $0.00 of $10 · all $3.37 of $20.
+
+**Totals:** fal $3.37 of $10 · RunPod $0.05 of $10 · all $3.42 of $20.

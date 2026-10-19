@@ -10,6 +10,7 @@ import { createReveal } from './formats/reveal.js';
 import { createComing } from './formats/coming.js';
 import { createMeshy3d } from './formats/meshy3d.js';
 import { createToon3d } from './formats/toon3d.js';
+import { createPuppet } from './formats/puppet.js';
 
 // The lab: one hero, one format (tab), one size at a time. Each format draws into #slot-art;
 // this file only switches between them and keeps the test hooks.
@@ -57,7 +58,8 @@ async function show(change = {}) {
   else if (tab === 'C') {
     next = createReveal({ host, hero: h, size, lab: LAB, test: TEST, take: Number(params.get('take')) });
     await next.ready;
-  } else if (tab === 'D') next = await createToon3d({ host, size, lab: LAB });
+  } else if (tab === 'B') next = await createPuppet({ host, hero: h, size, lab: LAB });
+  else if (tab === 'D') next = await createToon3d({ host, size, lab: LAB });
   else if (tab === 'M') next = await createMeshy3d({ host, hero: h, size, lab: LAB, clip: params.get('clip') });
   else next = createComing({ host, hero: h, size, aspect: LAB.imageAspect, format, $ });
   if (mine !== token) return next.dispose(); // a newer switch won
@@ -111,6 +113,7 @@ window.__game = {
   stateText,
   show,
   scoresText: () => scorePanel.asText(),
+  pose: (p) => view?.pose?.(p), // B: force a blink / mouth shape for screenshots
   // Test clock: advance simulated time in fixed steps, then draw one frame.
   advance(ms) {
     for (let t = 0; t < ms / 1000 - 1e-9; t += STEP) step(STEP);

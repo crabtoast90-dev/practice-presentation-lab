@@ -13,7 +13,7 @@ format | hero | card laptop | card phone | showcase laptop | showcase phone | pa
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 A shader card | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | ~$0.01 (mask) | adopt: showcase 4 (device split to confirm)
 A shader card | knight | 3 | 3 | 3 | 3 | yes | setup only | part of session 0 | ~$0.01 (mask) | not adopted (3 < 4)
-B shader puppet | sorceress | - | - | - | - | - | - | - | - | not built
+B shader puppet | sorceress | - | - | - | - | - | 0 | part of session 0 | $0.05 (RunPod, ~6 min A40) | waiting for scores
 C Kling reveal | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | viable but not ideal: ties A at far higher cost (fails the 1-point rule) and needs several tries per keeper
 C Kling reveal | knight | 3 | 3 | 3 | 3 | no | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | not adopted
 D toon 3D | sorceress | 3 | - | 4 | - | no | 10-15 (rough VRoid build) | part of session 0 | $0 | no-go for heroes: no better than A, pay no, and only Brian can make it look like the splash art; fine for generic NPCs and crowds

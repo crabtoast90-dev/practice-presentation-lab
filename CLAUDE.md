@@ -13,7 +13,7 @@ The user (Brian) is a game designer, not a programmer: report in plain language,
 - Vite + three.js (pinned), plain JS. `src/main.js` switches hero / tab / size; each format is one file in `src/formats/`. Every number lives in `src/lab/data.js` (`?tune=foil.strength:0.5` tries one).
 - SHARED files (name them in PLAN items): tab bar + hero switch `src/ui/tab-bar.js`, size toggle `src/ui/size-toggle.js`, score panel `src/ui/score-panel.js`, showcase framing `src/formats/fit.js`, plus `src/main.js`, `index.html`, `src/style.css`, `scripts/check.mjs`.
 - Hero sources in `hero/`; web copies in `public/heroes/`, reveal clips in `public/reveal/`. Tools in `tools/` (Kling call, seam test, encoders).
-- Hooks: `?test` (clock moves only on `window.__game.advance(ms)`), `?hero=knight`, `?tab=C`, `?size=showcase`, `?take=N` (another Kling attempt), `?clip=sway` (another Meshy idle), `?debug` (FPS), `window.__game.state() / show({hero,tab,size})`.
+- Hooks: `?test` (clock moves only on `window.__game.advance(ms)`), `?hero=knight`, `?tab=C`, `?size=showcase`, `?take=N` (another Kling attempt), `?clip=sway` (another Meshy idle), `window.__game.pose({blink: 1})` (B close-ups), `?debug` (FPS), `window.__game.state() / show({hero,tab,size})`.
 
 ## Money (hard rules)
 Budget $20: $10 fal (`FAL_KEY`), $10 RunPod (`RUNPOD_API_KEY`), injected by the cloud proxy. Log every paid call in `COSTS.md` (date, service, what, cost, running total). Ask before any single call over $2, and again at $16 total. Shut down every RunPod pod as soon as its job ends and confirm it is off. Never create accounts, enter payment details or buy anything. fal's checker flags words like "nudity" even in a negative prompt: keep prompts neutral.
