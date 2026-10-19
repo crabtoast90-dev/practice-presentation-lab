@@ -17,6 +17,7 @@ B shader puppet | sorceress | - | - | - | - | - | - | - | - | not built
 C Kling reveal | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | viable but not ideal: ties A at far higher cost (fails the 1-point rule) and needs several tries per keeper
 C Kling reveal | knight | 3 | 3 | 3 | 3 | no | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | not adopted
 D toon 3D | sorceress | - | - | - | - | - | - | - | - | not built
+M AI 3D (Meshy) | sorceress | - | - | - | - | - | 0 (no hand modelling) | part of session 0 | 44 Meshy credits (~$0.88) | waiting for scores
 E Unity lilToon | sorceress | - | - | - | - | - | - | - | - | optional
 
 Scores 2026-10-19, from Brian in chat ("4 on everything" for the sorceress, "3 on everything" for the knight); Brian confirmed the same scores on laptop and phone.

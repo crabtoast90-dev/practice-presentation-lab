@@ -26,6 +26,9 @@ Each item can be pasted alone into a fresh session. Every session reads `CLAUDE.
 - [ ] **D1. VRM from Brian.** Brian makes the sorceress in VRoid and adds `hero/hero.vrm` (upload to the repo on GitHub, or attach it to the session). *Done when:* the file is on main.
 - [ ] **D2. Toon 3D tab.** After D1. `src/formats/toon3d.js` with `@pixiv/three-vrm` (pinned), MToon shading, an idle animation, spring-bone hair, a blink; framed like the art at both sizes. SHARED: `src/lab/data.js`, `src/main.js`, `scripts/check.mjs`, `package.json`. *Done when:* the check shows D at both sizes on laptop and phone, not frozen, phone load under 5 s, and Brian scores it. Kill rule: 3 or lower means 3D is for map chibis only.
 
+## Lane M: AI image to 3D (Meshy), added after setup
+- [x] **M1. Meshy test.** `src/formats/meshy3d.js`, `public/meshy/sorceress.glb`: Meshy image to 3D from the sorceress art, auto-rig, three idle clips (44 credits). SHARED: `FORMATS`/`HEROES` in `src/lab/data.js`, `src/main.js`, `src/style.css`, `scripts/check.mjs`. *Done when:* the check shows M at both sizes on laptop and phone and Brian scores it against D's effort.
+
 ## Lane E: Unity lilToon (optional, S4)
 - [ ] **E1. Unity capture.** After D1. The same VRM in Unity with lilToon through the official Claude Code Unity plugin; showcase screenshots and a short clip into `public/unity/`, shown in a new E tab (stills + video, like C). SHARED: `FORMATS` in `src/lab/data.js`, `src/main.js`, `scripts/check.mjs`. *Done when:* tab E shows the captures at both sizes and Brian scores it.
 

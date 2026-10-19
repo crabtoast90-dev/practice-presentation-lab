@@ -5,6 +5,7 @@ Every tool, model and asset, with source and license.
 - Hero art (`hero/`, `public/heroes/`): made by Brian with the **Hassaku** anime model for Stable Diffusion (CivitAI).
 - **Kling 3.0 Pro** (Kuaishou) image-to-video through **fal** (fal.ai): the "card is born" reveals in `public/reveal/`.
 - **BiRefNet v2** (background removal, MIT) through fal: the character masks in `public/heroes/*-fx.png`.
+- **Meshy** (meshy.ai) image to 3D, auto-rigging and idle animations: the sorceress model in `public/meshy/sorceress.glb` (format M).
 - **See-through** by mitmul (https://github.com/mitmul/see-through), layer splitting for format B (lane B, not run yet), on **RunPod**.
 - **VRoid Studio** (pixiv) for the 3D model in format D (lane D, not made yet); **three-vrm** (pixiv, MIT) for MToon rendering.
 - **Unity** with **lilToon** (lilxyzw, MIT) for optional format E.

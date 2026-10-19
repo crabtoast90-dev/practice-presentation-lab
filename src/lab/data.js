@@ -8,7 +8,8 @@ export const HEROES = {
     image: 'heroes/sorceress.jpg',
     fx: 'heroes/sorceress-fx.png', // R = character mask, G = soft glow around it
     reveal: { file: 'reveal/sorceress', takes: [2, 3, 4], keep: 3 }, // <file>-<take>.webm (+ .mp4 for older iPhones); ?take=N shows another
-    formats: ['A', 'B', 'C', 'D'],
+    formats: ['A', 'B', 'C', 'D', 'M'],
+    meshy: { file: 'meshy/sorceress.glb' }, // M: Meshy image-to-3D, rigged, idle clips baked in
     glow: [0.35, 0.95, 0.82], // halo color around the character
   },
   knight: {
@@ -28,6 +29,7 @@ export const FORMATS = [
   { id: 'B', name: 'Shader puppet', short: 'B Puppet', status: 'coming', note: 'Coming: layered puppet with breathing, hair sway and blinks (lane B).' },
   { id: 'C', name: 'Kling reveal', short: 'C Reveal', status: 'live' },
   { id: 'D', name: 'Toon 3D', short: 'D 3D', status: 'coming', note: 'Coming: VRoid model in three-vrm MToon, needs hero.vrm (lane D).' },
+  { id: 'M', name: 'AI 3D (Meshy)', short: 'M Meshy', status: 'live' },
 ];
 
 export const SIZES = ['card', 'showcase'];
@@ -40,5 +42,6 @@ export const LAB = {
   foil: { strength: 0.24, onCharacter: 0.05, sweep: 0.16, bands: 1.4 }, // holo foil (mostly on the background)
   rim: { strength: 0.7, width: 0.006, color: [1.0, 0.86, 0.55] }, // character edge lit from the tilt side
   glow: { strength: 0.28, pulseSeconds: 3.9 }, // soft halo around the character (color per hero)
-  reveal: { holdSeconds: 2.5 }, // C: after the clip ends, hold the still card this long, then play again
+  reveal: { holdSeconds: 2.5 },
+  meshy: { clip: 'Idle', fov: 28, margin: 1.12, exposure: 1.15, ambient: 1.5, key: 2.2, rim: 1.6, swayRad: 0.12 }, // M: idle clip by name, camera, lights, slow turn // C: after the clip ends, hold the still card this long, then play again
 };

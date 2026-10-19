@@ -14,4 +14,12 @@ date | service | what | cost | running total
 2026-10-19 | fal | Kling 3.0 Pro, sorceress attempt 4 (5 s) | $0.56 | $2.81
 2026-10-19 | fal | Kling 3.0 Pro, knight attempt 4 (5 s) | $0.56 | $3.37
 
+Meshy (Brian's monthly credits, outside the $20 fal/RunPod budget; ~$0.02 a credit on Meshy's plans, an estimate):
+
+date | service | what | credits | running credits
+--- | --- | --- | --- | ---
+2026-10-19 | Meshy | image to 3D, sorceress (meshy-7.1, 2K texture, A-pose, 30k polys) | 30 | 30
+2026-10-19 | Meshy | auto-rig | 5 | 35
+2026-10-19 | Meshy | 3 idle clips (Idle, Long Breathe and Look Around, Happy Sway Standing) | 9 | 44 (about $0.88; 405 left this month)
+
 **Totals:** fal $3.37 of $10 · RunPod $0.00 of $10 · all $3.37 of $20.

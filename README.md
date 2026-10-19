@@ -1,8 +1,8 @@
 # Presentation Lab
 
-**Open: https://crabtoast90-dev.github.io/practice-presentation-lab/** (`?debug` shows FPS, `?hero=knight`, `?tab=C`, `?size=showcase`, `?take=4` shows another Kling attempt)
+**Open: https://crabtoast90-dev.github.io/practice-presentation-lab/** (`?debug` shows FPS, `?hero=knight`, `?tab=C`, `?size=showcase`, `?take=4` shows another Kling attempt, `?tab=M&clip=sway` another Meshy idle)
 
-Which in-game format sells an adult anime character as attractive and alive, for the least effort? Two heroes, one tab per format (A shader card, B shader puppet, C Kling reveal, D toon 3D), each at CARD and SHOWCASE size, and a SCORE panel.
+Which in-game format sells an adult anime character as attractive and alive, for the least effort? Two heroes, one tab per format (A shader card, B shader puppet, C Kling reveal, D toon 3D, M AI 3D from Meshy), each at CARD and SHOWCASE size, and a SCORE panel.
 
 How it was built and why: `PLAN.md` (lanes), `DECISIONS.md` (every call), `RESULTS.md` (scores and effort per format), `COSTS.md` (every paid call), `LOG.md` (sessions, time and scores), `CREDITS.md`.
 
