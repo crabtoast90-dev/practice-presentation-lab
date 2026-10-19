@@ -19,7 +19,7 @@ export async function createMeshy3d({ host, hero, size, lab, clip: clipName }) {
   frame.className = 'framed meshy';
   host.append(frame);
 
-  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  const renderer = new THREE.WebGLRenderer({ antialias: devicePixelRatio < 2, alpha: true }); // no MSAA on sharp phone screens
   renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;

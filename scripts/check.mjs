@@ -14,7 +14,7 @@ const RUNS = 'check-output';
 const KEEP = 5;
 const OUT = join(RUNS, new Date().toISOString().replace(/[:.]/g, '-')); // one folder per run
 const URL_ARG = process.argv.find((a) => a.startsWith('--url='))?.slice(6);
-const TARGET = { fps: 30, loadMs: 5000, stallFps: 5 }; // phone pass
+const TARGET = { fps: 30, loadMs: 5000, stallFps: 0.5 }; // phone pass
 
 function chromePath() {
   if (process.env.CHROME_PATH) return process.env.CHROME_PATH;

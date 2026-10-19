@@ -96,7 +96,7 @@ export function preloadShaderCard(hero) {
 let renderer = null; // one WebGL context, moved between slots
 function getRenderer() {
   if (!renderer) {
-    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer = new THREE.WebGLRenderer({ antialias: devicePixelRatio < 2, alpha: true }); // no MSAA on sharp phone screens
     renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     renderer.setClearColor(0x000000, 0);
