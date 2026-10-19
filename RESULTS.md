@@ -13,7 +13,7 @@ format | hero | card laptop | card phone | showcase laptop | showcase phone | pa
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 A shader card | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | ~$0.01 (mask) | adopt: showcase 4 (device split to confirm)
 A shader card | knight | 3 | 3 | 3 | 3 | yes | setup only | part of session 0 | ~$0.01 (mask) | not adopted (3 < 4)
-B shader puppet | sorceress | - | - | - | - | - | 0 | part of session 0 | $0.05 (RunPod, ~6 min A40) | waiting for scores
+B shader puppet | sorceress | 4.4 overall | | | | - | 0 | session 0 (tools built) + est. 10-20 agent min per new character | $0.05 split + ~$0.01 mask | beats A (kill rule passes, puppets stay); by the effort rule it needs +1 over A and has +0.4, so A stays the default unless Brian overrules
 C Kling reveal | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | viable but not ideal: ties A at far higher cost (fails the 1-point rule) and needs several tries per keeper
 C Kling reveal | knight | 3 | 3 | 3 | 3 | no | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | not adopted
 D toon 3D | sorceress | 3 | - | 4 | - | no | 10-15 (rough VRoid build) | part of session 0 | $0 | no-go for heroes: no better than A, pay no, and only Brian can make it look like the splash art; fine for generic NPCs and crowds
@@ -28,6 +28,8 @@ Brian on D's build: a rough VRoid sorceress took him 10-15 minutes; it's generic
 
 Scores pasted from the panel (laptop, 2026-10-19): sorceress A card 4 (pay blank), A showcase 4 yes, C card 4 yes, C showcase 4 yes, D card 3 no, D showcase 4 no, M card 1 no, M showcase 1 no; knight A card 3 yes, A showcase 3 yes, C card 3 no, C showcase 3 no.
 Brian on D: "The model does look decent. It's not Unreal Engine quality, but it's a solid cel-shaded anime character. It looks just how I made it though, and I cannot be the one making these characters look unique, if you are unable to alter the look/customize the look of these characters to match the splash art, it's a no-go. This seems like a fine potential pipeline for generic good looking cel-shaded characters for other projects though, maybe for town NPC's or a crowd where we can repeat for example."
+
+Brian on B after the hair depth was cut: "It looks good now. I'd score B at 4.4." Earlier: "If we cut the hair portion of the depth, I think it's a clear improvement on A."
 
 ## Measured
 - C seam: first and last frames differ from the still by about 2 on a 0-255 scale (tools/seam.py) for every attempt, too small to see. No visible seam.
