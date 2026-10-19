@@ -11,13 +11,16 @@ Scores come from the SCORE panel (look 1-5, "would I pay for this as a skin?"), 
 
 format | hero | card laptop | card phone | showcase laptop | showcase phone | pay? | Brian min | agent sessions | dollars | verdict
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-A shader card | sorceress | - | - | - | - | - | setup only | part of session 0 | ~$0.01 (mask) | waiting for scores
-A shader card | knight | - | - | - | - | - | setup only | part of session 0 | ~$0.01 (mask) | waiting for scores
+A shader card | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | ~$0.01 (mask) | adopt: showcase 4 (device split to confirm)
+A shader card | knight | 3 | 3 | 3 | 3 | yes | setup only | part of session 0 | ~$0.01 (mask) | not adopted (3 < 4)
 B shader puppet | sorceress | - | - | - | - | - | - | - | - | not built
-C Kling reveal | sorceress | - | - | - | - | - | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | waiting for scores
-C Kling reveal | knight | - | - | - | - | - | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | waiting for scores
+C Kling reveal | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | ties A at far higher cost: fails the 1-point rule; Brian: borderline, skip at ~$1/character unless quality rises cheaply
+C Kling reveal | knight | 3 | 3 | 3 | 3 | no | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | not adopted
 D toon 3D | sorceress | - | - | - | - | - | - | - | - | not built
 E Unity lilToon | sorceress | - | - | - | - | - | - | - | - | optional
+
+Scores 2026-10-19, from Brian in chat ("4 on everything" for the sorceress, "3 on everything" for the knight); the four columns repeat that until he confirms both devices.
+Brian on C: "The C animations don't look great here. The Sorceress was definitely better and is borderline for me, but if it's going to cost me $1 a character I'd probably skip it based on this, but if we could refine it to get higher quality without ballooning cost I might do it."
 
 ## Measured
 - C seam: first and last frames differ from the still by about 2 on a 0-255 scale (tools/seam.py) for every attempt, too small to see. No visible seam.
