@@ -4,6 +4,8 @@
 
 Which in-game format sells an adult anime character as attractive and alive, for the least effort? Two heroes, one tab per format (A shader card, B shader puppet, C Kling reveal, D toon 3D, M AI 3D from Meshy), each at CARD and SHOWCASE size, and a SCORE panel.
 
+**Result:** A (shader card) is the default, B (shader puppet) a plus on top where it fits; C viable but inconsistent; D (VRoid) for generic NPCs; M (Meshy) out. Details in `RESULTS.md`.
+
 How it was built and why: `PLAN.md` (lanes), `DECISIONS.md` (every call), `RESULTS.md` (scores and effort per format), `COSTS.md` (every paid call), `LOG.md` (sessions, time and scores), `CREDITS.md`.
 
 ## For developers

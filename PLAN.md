@@ -30,7 +30,7 @@ Each item can be pasted alone into a fresh session. Every session reads `CLAUDE.
 - [x] **M1. Meshy test.** `src/formats/meshy3d.js`, `public/meshy/sorceress.glb`: Meshy image to 3D from the sorceress art, auto-rig, three idle clips (44 credits). SHARED: `FORMATS`/`HEROES` in `src/lab/data.js`, `src/main.js`, `src/style.css`, `scripts/check.mjs`. *Done when:* the check shows M at both sizes on laptop and phone and Brian scores it against D's effort.
 
 ## Lane E: Unity lilToon (optional, S4)
-- [ ] **E1. Unity capture.** After D1. The same VRM in Unity with lilToon through the official Claude Code Unity plugin; showcase screenshots and a short clip into `public/unity/`, shown in a new E tab (stills + video, like C). SHARED: `FORMATS` in `src/lab/data.js`, `src/main.js`, `scripts/check.mjs`. *Done when:* tab E shows the captures at both sizes and Brian scores it.
+- [ ] ~~**E1. Unity capture.**~~ Skipped 2026-10-19: same VRM as D, so it can't fix likeness, D's blocker (see IDEAS.md). After D1. The same VRM in Unity with lilToon through the official Claude Code Unity plugin; showcase screenshots and a short clip into `public/unity/`, shown in a new E tab (stills + video, like C). SHARED: `FORMATS` in `src/lab/data.js`, `src/main.js`, `scripts/check.mjs`. *Done when:* tab E shows the captures at both sizes and Brian scores it.
 
 ## Wrap-up
-- [ ] **R1. Verdict.** After Brian's scores. Fill `RESULTS.md` (scores, effort, which rules fired), live-site check, README and CREDITS complete. *Done when:* RESULTS.md names the adopted format(s) and the live check passes.
+- [x] **R1. Verdict.** After Brian's scores. Fill `RESULTS.md` (scores, effort, which rules fired), live-site check, README and CREDITS complete. *Done when:* RESULTS.md names the adopted format(s) and the live check passes.

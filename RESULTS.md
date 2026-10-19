@@ -5,6 +5,10 @@ Scores come from the SCORE panel (look 1-5, "would I pay for this as a skin?"), 
 ## Verdict (2026-10-19)
 **A (shader card) is the default; B (shader puppet) is a viable plus on top of A where it fits the game.** C (Kling reveal) is viable but not ideal (inconsistent, several tries per keeper); D (VRoid toon 3D) is parked for generic NPCs and crowds; M (Meshy image-to-3D) is out.
 
+## Beyond the lab (reasoning, not tested; see IDEAS.md)
+- Conclusions are for the anime (Hassaku) style. For realistic art, expect A still safe, video stronger, puppets weaker, Unreal MetaHuman 3D viable.
+- Bought 3D packs (Unity or Unreal) look generic when made to match finished art (Homecoming); they work when characters are designed from the pack and the 2D art is made from the 3D.
+
 ## Test rules
 - Adopt a format at a SHOWCASE look of 4+ on both laptop and phone.
 - A format that costs twice the effort must beat the cheaper one by a full point.
