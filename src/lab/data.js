@@ -44,7 +44,7 @@ export const LAB = {
   rim: { strength: 0.7, width: 0.006, color: [1.0, 0.86, 0.55] }, // character edge lit from the tilt side
   glow: { strength: 0.28, pulseSeconds: 3.9 }, // soft halo around the character (color per hero)
   reveal: { holdSeconds: 2.5 },
-  puppet: { parallax: [0.035, 0.018, 0, -0.012], breathSeconds: 4.2, breath: 0.004, swaySeconds: 3.6, hairSway: 0.009, cape: 0.01, blinkEvery: 3.8, blinkSeconds: 0.18, mouth: 0.55, talkEvery: 9 }, // B: tilt parallax per plane (backdrop, back hair, body, front hair), idle motion
+  puppet: { parallax: [0.035, 0, 0, 0], breathSeconds: 4.2, breath: 0.007, swaySeconds: 3.6, hairSway: 0.009, cape: 0.01, blinkEvery: 3.8, blinkSeconds: 0.18, mouth: 0.55, talkEvery: 9 }, // B: tilt parallax per plane (backdrop, back hair, body, front hair), idle motion
   toon: { fov: 26, margin: 1.1, ambient: 1.6, key: 1.6, breathSeconds: 4.2, breath: 0.025, shiftSeconds: 7, armDown: 1.2, blinkEvery: 3.5, blinkSeconds: 0.16, swayRad: 0.1 }, // D: camera, lights, hand-made idle, blinks
   meshy: { clip: 'Idle', fov: 28, margin: 1.12, exposure: 1.15, ambient: 1.5, key: 2.2, rim: 1.6, swayRad: 0.12 }, // M: idle clip by name, camera, lights, slow turn // C: after the clip ends, hold the still card this long, then play again
 };
