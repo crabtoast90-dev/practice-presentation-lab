@@ -16,7 +16,7 @@ A shader card | knight | 3 | 3 | 3 | 3 | yes | setup only | part of session 0 | 
 B shader puppet | sorceress | - | - | - | - | - | - | - | - | not built
 C Kling reveal | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | viable but not ideal: ties A at far higher cost (fails the 1-point rule) and needs several tries per keeper
 C Kling reveal | knight | 3 | 3 | 3 | 3 | no | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | not adopted
-D toon 3D | sorceress | - | - | - | - | - | 10-15 (rough VRoid build) | - | $0 | waiting for the VRM upload
+D toon 3D | sorceress | - | - | - | - | - | 10-15 (rough VRoid build) | part of session 0 | $0 | waiting for scores
 M AI 3D (Meshy) | sorceress | - | - | - | - | - | 0 (no hand modelling) | part of session 0 | 44 Meshy credits (~$0.88) | rejected by eye, no number given: "looks like a smeared 3d painting", uncanny
 E Unity lilToon | sorceress | - | - | - | - | - | - | - | - | optional
 

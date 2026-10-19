@@ -175,7 +175,7 @@ async function speed(page, name) {
   const s = await state(page);
   const load = s.loadMs;
   (load < TARGET.loadMs ? summaries : failures).push(`[${name}] load ${load} ms (target under ${TARGET.loadMs})`);
-  for (const [tab, size] of [['A', 'card'], ['A', 'showcase'], ['C', 'card'], ['C', 'showcase'], ['M', 'card'], ['M', 'showcase']]) {
+  for (const [tab, size] of [['A', 'card'], ['A', 'showcase'], ['C', 'card'], ['C', 'showcase'], ['D', 'card'], ['D', 'showcase'], ['M', 'card'], ['M', 'showcase']]) {
     await page.evaluate((c) => window.__game.show(c), { tab, size });
     await settle(page);
     const f = await page.evaluate(() => window.__game.measureFps(3000));

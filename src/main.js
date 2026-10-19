@@ -9,6 +9,7 @@ import { createShaderCard, preloadShaderCard, shaderRenderer } from './formats/s
 import { createReveal } from './formats/reveal.js';
 import { createComing } from './formats/coming.js';
 import { createMeshy3d } from './formats/meshy3d.js';
+import { createToon3d } from './formats/toon3d.js';
 
 // The lab: one hero, one format (tab), one size at a time. Each format draws into #slot-art;
 // this file only switches between them and keeps the test hooks.
@@ -56,7 +57,8 @@ async function show(change = {}) {
   else if (tab === 'C') {
     next = createReveal({ host, hero: h, size, lab: LAB, test: TEST, take: Number(params.get('take')) });
     await next.ready;
-  } else if (tab === 'M') next = await createMeshy3d({ host, hero: h, size, lab: LAB, clip: params.get('clip') });
+  } else if (tab === 'D') next = await createToon3d({ host, size, lab: LAB });
+  else if (tab === 'M') next = await createMeshy3d({ host, hero: h, size, lab: LAB, clip: params.get('clip') });
   else next = createComing({ host, hero: h, size, aspect: LAB.imageAspect, format, $ });
   if (mine !== token) return next.dispose(); // a newer switch won
   view = next;
