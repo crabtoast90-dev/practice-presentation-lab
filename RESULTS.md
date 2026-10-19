@@ -2,6 +2,9 @@
 
 Scores come from the SCORE panel (look 1-5, "would I pay for this as a skin?"), copied into LOG.md and summarised here. Effort per format: Brian's minutes, agent sessions, dollars.
 
+## Verdict (2026-10-19)
+**A (shader card) is the default; B (shader puppet) is a viable plus on top of A where it fits the game.** C (Kling reveal) is viable but not ideal (inconsistent, several tries per keeper); D (VRoid toon 3D) is parked for generic NPCs and crowds; M (Meshy image-to-3D) is out.
+
 ## Test rules
 - Adopt a format at a SHOWCASE look of 4+ on both laptop and phone.
 - A format that costs twice the effort must beat the cheaper one by a full point.
@@ -13,7 +16,7 @@ format | hero | card laptop | card phone | showcase laptop | showcase phone | pa
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 A shader card | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | ~$0.01 (mask) | adopt: showcase 4 (device split to confirm)
 A shader card | knight | 3 | 3 | 3 | 3 | yes | setup only | part of session 0 | ~$0.01 (mask) | not adopted (3 < 4)
-B shader puppet | sorceress | 4.4 overall | | | | - | 0 | session 0 (tools built) + est. 10-20 agent min per new character | $0.05 split + ~$0.01 mask | beats A (kill rule passes, puppets stay); by the effort rule it needs +1 over A and has +0.4, so A stays the default unless Brian overrules
+B shader puppet | sorceress | 4.4 overall | | | | - | 0 | session 0 (tools built) + est. 10-20 agent min per new character | $0.05 split + ~$0.01 mask | beats A (kill rule passes, puppets stay); by the effort rule it needs +1 over A and has +0.4, Brian: A stays the default, B a viable plus on top where it fits
 C Kling reveal | sorceress | 4 | 4 | 4 | 4 | yes | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | viable but not ideal: ties A at far higher cost (fails the 1-point rule) and needs several tries per keeper
 C Kling reveal | knight | 3 | 3 | 3 | 3 | no | setup only | part of session 0 | $1.68 (3 clips, 1 kept) | not adopted
 D toon 3D | sorceress | 3 | - | 4 | - | no | 10-15 (rough VRoid build) | part of session 0 | $0 | no-go for heroes: no better than A, pay no, and only Brian can make it look like the splash art; fine for generic NPCs and crowds
